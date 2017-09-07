@@ -17,7 +17,15 @@ int main(void)
         printf("#");
       }
       printf("  ");
-      
+      // for loop param same as above refactor into a fxn
+      for (b=0; b< i+1; b++)
+      {
+          printf("#");
+      }
+      for (w=0; w < l - i - 1; w++);
+      {
+          printf(" ");
+      }
       printf("\n");
     }
 }
